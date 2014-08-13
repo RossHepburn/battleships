@@ -21,19 +21,18 @@ describe Board do
 		expect(board.rows[1][6]).to eq("o")
 	end
 
-<<<<<<< HEAD
 	it 'places X ships' do
 		# do stuff and add expectation
-=======
-	it "should have ships size 2" do
-		board.add_ships	
-		expect(board.rows.flatten.count("s")).to eq(2)
 	end
 
-	it "should not overlap ships" do
-		board.add_ships
-		expect(board.rows.flatten.count("s")).to eq(31)
->>>>>>> 264b0c8ae4339d76f2c93bfbc1e8e4d7469953b5
-	end
+	# it "should have ships size 2" do
+	# 	board.add_ships	
+	# 	expect(board.rows.flatten.count("s")).to eq(24)
+	# end
+
+	# it "should not overlap ships" do
+	# 	board.add_ships
+	# 	expect(board.rows.flatten.count("s")).to eq(31)
+	# end
 
 end	
